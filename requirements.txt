@@ -1,0 +1,6 @@
+opencv-python
+deepface
+numpy
+scikit-learn
+matplotlib
+tf-keras
