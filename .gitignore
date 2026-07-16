@@ -1,0 +1,9 @@
+﻿# Modelos generados automáticamente
+modelos/
+
+# Configuración de Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Resultados gráficos generados
+dataset/resultado_*.png
