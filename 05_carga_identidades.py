@@ -60,8 +60,14 @@ for nombre in sorted(os.listdir(carpeta_dataset)):
 
                 embedding = np.array(resultado[0]["embedding"])
 
-                # Guardar el embedding en la base de identidades
-                base_identidades[nombre].append(embedding)
+                # Guardar información del embedding
+                base_identidades[nombre].append({
+
+                    "archivo": archivo,
+
+                    "embedding": embedding
+
+                })
 
                 total_embeddings += 1
 
